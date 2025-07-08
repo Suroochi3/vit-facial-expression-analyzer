@@ -1,48 +1,48 @@
 # 🎭 ViT-Based Facial Expression Recognition
 
-This repository contains a Vision Transformer (ViT) model implementation for recognizing facial emotions based on image data. It is part of the **AI Powered Smart Cognitive Tracker** project — an AI system to detect early signs of mental health challenges using multimodal data.
+This repository contains a **Vision Transformer (ViT)** model trained to detect facial expressions and emotional states. It is **specifically developed for the AI Powered Smart Cognitive Tracker** — a multimodal AI system designed to identify early signs of mental health issues in adolescents.
 
 ---
 
-## 🎯 Objective
+## 🎯 Project Context
 
-Facial expressions often reveal emotional states such as sadness, anxiety, stress, or happiness. This model analyzes facial images and classifies the emotion using a pretrained **Vision Transformer (ViT)** model.
+Facial expressions often reveal subtle emotional and psychological states such as stress, sadness, anxiety, or happiness. In this project, the **ViT model** plays a critical role in analyzing visual emotional cues from facial images, contributing to a larger multimodal mental health analysis system.
 
 ---
 
-## 🧠 Model Overview
+## 🧠 Model Highlights
 
-| Component | Description |
-|-----------|-------------|
-| Model | Vision Transformer (ViT base / ViT-small) |
-| Task | Image-based emotion classification |
-| Framework | PyTorch |
-| Platform | Google Colab |
-| Data | Custom or public facial expression datasets (e.g., FER-2013, AffectNet) |
+| Component       | Description                                      |
+|----------------|--------------------------------------------------|
+| Model           | Vision Transformer (ViT base)                    |
+| Task            | Facial Emotion Recognition                      |
+| Data Source     | Public/custom facial emotion dataset             |
+| Framework       | PyTorch + timm                                   |
+| Platform        | Google Colab                                     |
+| Project Context | Part of "AI Powered Smart Cognitive Tracker"     |
 
 ---
 
 ## 📂 Files Included
 
 - `VISION TRANSFORMER MODEL TRAINING.ipynb`  
-  → Colab notebook with preprocessing, ViT model training, evaluation, and visualizations.
+  → Complete notebook with preprocessing, training, and evaluation steps
 
-- `data/`  
-  → (Optional) Contains sample dataset or image folder structure (if applicable).
+- `data/` *(optional)*  
+  → Sample image dataset if used
 
 ---
 
 ## 🚀 Run on Google Colab
 
-You can open the notebook directly in Colab using the badge below:
+You can run the model directly using the Colab badge below:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Suroochi3/vit-facial-expression-analyzer/blob/main/VISION%20TRANSFORMER%20MODEL%20TRAINING.ipynb)
 
 ---
 
-## 📦 Requirements
+## 📦 Installation
 
 ```bash
-pip install torch torchvision
-pip install timm
+pip install torch torchvision timm
 pip install matplotlib seaborn
